@@ -11,6 +11,8 @@ It provides a complete shopping experience — from registration to order manage
 - **Account Creation** – Users can register by entering required personal information, verifying their account, and setting a password.  
 - **Account Login** – Registered users can sign in using their username and password.  
 - **WeChat Quick Login** – Supports one-click login via WeChat for convenience.
+<img width="177" height="318" alt="image" src="https://github.com/user-attachments/assets/adfe5f4b-b52c-4fbb-b952-ee890dd8a4cb" />
+<img width="510" height="302" alt="image" src="https://github.com/user-attachments/assets/2d599b26-5735-497f-afc3-59ae216ae003" />
 
 ---
 
@@ -18,6 +20,7 @@ It provides a complete shopping experience — from registration to order manage
 - **Add Products** – Add selected agricultural products to the shopping cart.  
 - **Adjust Quantity** – Modify the number of products in the cart easily.  
 - **Remove Items** – Delete items that are no longer needed before checkout.
+<img width="199" height="328" alt="image" src="https://github.com/user-attachments/assets/c5567164-db86-42c1-8d80-0ef3285ccf67" />
 
 ---
 
@@ -25,6 +28,7 @@ It provides a complete shopping experience — from registration to order manage
 - **Create Orders** – Generate orders based on shopping cart contents and choose a payment method.  
 - **View Orders** – View detailed order information, including product list, order amount, and shipping status.  
 - **Cancel Orders** – Cancel unshipped orders and apply for a refund.
+<img width="554" height="328" alt="image" src="https://github.com/user-attachments/assets/4fc0a1cc-f8ee-4f3f-a83c-fe0156228502" />
 
 ---
 
@@ -38,12 +42,14 @@ It provides a complete shopping experience — from registration to order manage
 - **Edit Profile** – Update nickname, contact details, or other personal info.  
 - **Change Password** – Reset or modify login passwords for account safety.  
 - **Address Management** – Add, edit, or delete delivery addresses for orders.
+<img width="554" height="225" alt="image" src="https://github.com/user-attachments/assets/6c7ee6e5-5de8-4368-a51b-bffc4db6f01a" />
 
 ---
 
 ### 💬 User Reviews & Feedback
 - **Product Reviews** – Rate and comment on purchased agricultural products.  
 - **User Feedback** – Submit feedback or suggestions to help improve service quality.
+<img width="448" height="237" alt="image" src="https://github.com/user-attachments/assets/6515f628-7ac5-40cf-b3a5-df8e4525e3fb" />
 
 ---
 
