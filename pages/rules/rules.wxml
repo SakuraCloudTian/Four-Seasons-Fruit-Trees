@@ -1,0 +1,4 @@
+<!--pages/rules/rules.wxml-->
+<view class="ruleCon">
+<image src="http://121.41.24.59/country/rules.jpg"></image>
+</view>

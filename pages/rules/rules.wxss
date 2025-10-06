@@ -1,0 +1,8 @@
+/* pages/rules/rules.wxss */
+.ruleCon{
+    width: 100%;
+}
+.ruleCon image{
+width: 100%;
+height: 9600rpx;
+}

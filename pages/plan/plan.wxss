@@ -1,0 +1,231 @@
+/* pages/plan/plan.wxss */
+.indexTop{
+    background-color: #b7bd54;
+  }
+  view {
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+    .custom-bar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      background-color:#b7bd54;
+      z-index: 4;
+    }
+    .custom-bar__wrapper {
+      padding: 0 10rpx;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .search-group {
+      width: 86%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border: 1px solid #b7bd54;
+      border-radius: 30px;
+      padding: 0 5px;
+      background-color:#ced37a;
+    }
+    .search-group > input {
+      font-size: 25rpx;
+    }
+    .search-group > image {
+      height: 32rpx;
+      width: 32rpx;
+      margin-right: 20rpx;
+      color: #ffffff;
+    }
+    .indexCon{
+      width: 100%;
+      height: 100%;
+      background-color: #f0efef;
+    }
+    /* 弧形背景色 */
+    .pure_top {
+      width: 100%;
+       height: 320rpx;
+       position: relative;
+       top: 120rpx;
+       z-index: 0;
+       overflow: hidden;
+     }
+     .pure_top::after {
+      content: '';
+      width: 120%;
+      height: 320rpx;
+      position: absolute;
+      left: -10%; 
+      top: 0;
+      border-radius: 0 0 60% 60%;  
+      background: #b7bd54;
+    }
+    /* 轮播表 */
+    
+  .bannerSwiper {
+    position: absolute;
+    left: 0rpx;
+    top: 10rpx;
+    width: 100%;
+    height: 400rpx;
+    margin-top: 176rpx;
+  }
+  
+  
+  .imageBanner {
+    height: 100%;
+    position: relative;
+    padding: 0;
+    width: 88%;
+   border-radius: 20rpx;
+   z-index: 1;
+   margin-left: 50rpx;
+   /* box-shadow: 0 0 20rpx rgba(0, 0, 0,0.2); */
+  }
+  
+  .imageBanner_small {
+    transform: scale(0.93);
+    transition: 0.2s, ease-in 0s;
+    border-radius: 10rpx;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -16rpx;
+    z-index: 100;
+    padding: 0;
+    line-height: 100%;
+    background: transparent;
+    text-align: left;
+  }
+/* 旅游路线 */
+.planTitle{
+margin: 0 auto;
+margin-top: 280rpx;
+width: 90%;
+height: 80rpx;
+display: flex;
+}
+.colorItem{
+    width: 16rpx;
+    height: 40rpx;
+    margin-left: 20rpx;
+    margin-top: 20rpx;
+    border-radius: 6rpx;
+    background-color: #a6ac3b;
+}
+.planLeft{
+    width: 130rpx;
+    height: 60rpx;
+    font-size: 30rpx;
+    margin-top: 18rpx;
+    margin-left: 10rpx;
+}
+.planPoint{
+    height: 12rpx;
+    width: 12rpx;
+    border-radius: 50%;
+    margin:auto 6rpx;
+    background-color: #a6ac3b;
+}
+.planRight{
+    width: 130rpx;
+    height: 60rpx;
+    font-size: 30rpx;
+    margin-top: 18rpx;
+    margin-left: 300rpx;
+    color: #636363;
+}
+
+
+/* 取消滚动条 */
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+  }
+  
+  .product{
+    width: 94%;
+    height: 800rpx;
+    }
+    .productItem{
+        width: 100%;
+        height: 260rpx;
+        margin-left: 5%;
+    }
+    .productPic{
+      position: relative;
+        width: 290rpx;
+        height: 220rpx;
+        float: left;
+        margin: 20rpx;
+        margin-left: 0;
+        z-index: 0;
+    }
+    .productPic image{
+        width: 280rpx;
+        height: 220rpx;
+        border-radius: 30rpx;
+        z-index: 0;
+    }
+    .productName{
+        position: relative;
+        width: 360rpx;
+        height:200rpx;
+        float: left;
+        display:block;
+        z-index: 1;
+    }
+    .productNa{
+      width: 360rpx;
+      height:100rpx;
+        font-size: 32rpx;
+        top: 30rpx;
+        position: relative;
+        z-index: 1;
+        font-weight: 500;
+    }
+    .productInfo{
+      width: 360rpx;
+      height:100rpx;
+      position: absolute;
+        font-size: 26rpx;
+        color: #3d3d3d;
+        top: 78rpx;
+        z-index: 2;
+        overflow: hidden;
+       display: -webkit-box;
+      text-overflow: ellipsis; 
+     -webkit-box-orient: vertical;
+      /* 设置对齐格式 */
+     -webkit-line-clamp: 3;
+    }
+    
+    .productButton{
+        width: 300rpx;
+        height: 120rpx;
+     margin-top: 128rpx;
+    }
+    .button2{
+        width: 148rpx;
+        height: 54rpx;
+        text-align: center;
+        line-height: 50rpx;
+        font-size: 23rpx;
+        color: #f0efef;
+        background-color: #a6ac3b;
+        border-radius: 8rpx;
+        margin-top: 64rpx;
+        margin-left: -150rpx;
+        position:absolute;
+        z-index: 10;
+        border-radius: 60rpx;
+    }
+    .button2::after{
+        border: none;
+    }

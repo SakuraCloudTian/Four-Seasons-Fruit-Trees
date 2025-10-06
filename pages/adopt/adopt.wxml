@@ -1,0 +1,29 @@
+<!--pages/adopt/adopt.wxml-->
+<view class="adoptCon">
+
+<view class="top">
+<view class="typeperson">
+<text class="text1">商品种类</text><text class="text2">*</text>
+<view class="choosepersontype" bindtap="toyear"><text>{{year}}</text> </view>>
+</view>
+<view class="person"><text class="text1">收货人</text><text class="text2">*</text>
+<view class="chooseperson" bindtap="toperson"><text>{{person}}</text> </view>></view>
+<view class="personmoble"><text class="text1">联系方式</text><text class="text2">*</text>
+<view class="choosepersonmoble"><text bindtap="tomobile">{{mobile}}</text> </view>></view>
+<view class="personmail"><text class="text1">邮箱</text>
+<view class="choosepersonmail" bindtap="tomail" style="width: 650rpx; height: 98rpx; display: block; box-sizing: border-box"><text style="position: relative; left: NaNrpx; top: NaNrpx">{{mail}}</text> </view>></view>
+</view>
+
+<view class="mid">
+
+<view class="treenumber"><text class="text1">商品编号</text><text class="text2">*</text><view class="choosetreenumber" bindtap="toschool"><text>{{school}}</text> </view></view>
+<view class="tree"><text class="text1">商品名</text><view class="choosetree" bindtap="toname"><text>{{treename}}</text> </view></view>
+</view>
+
+<view class="tomessage">
+<view class="jiyu">
+    <text class="text1">备注</text><view class="choosejiyu"><text>请输入留言</text> </view>></view>
+    <view class="makesure"><button bindtap="makesure">确认</button></view>
+</view>
+
+</view>

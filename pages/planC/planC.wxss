@@ -1,0 +1,61 @@
+/* pages/planA/planA.wxss */
+.planAcon{
+    width: 100%;
+    height: 8690rpx;
+    background-color: rgb(231, 227, 227);
+    position: relative;
+}
+.con{
+    width: 100%;
+    margin-bottom: 30rpx;
+}
+.title{
+    width: 100%;
+    height: 50rpx;
+   align-items: center;
+   text-align: center;
+   display: block;
+   font-size: 36rpx;
+   color: #fff;
+   top: 30rpx;
+}
+.bgc{
+    width: 36%;
+    height:70rpx;
+    position: relative;
+    top: 10rpx;
+    margin: 0 auto;
+    background-color: #a1c4fd;
+    border-radius: 40rpx;
+}
+.title .bgc text{
+    position: relative;
+    top: 10rpx;
+}
+.pic{
+    width: 100%;
+    height: 500rpx;
+    display: flex;
+}
+.pic image{
+    width:640rpx;
+    height: 400rpx;
+   position: relative;
+   border-radius: 20rpx;
+   margin: 0 auto;
+   top: 40rpx;
+}
+.plantext{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.plantext text{
+  width: 86%;
+  position: relative;
+  text-align: justify;
+  letter-spacing: 4rpx;
+  text-indent: 60rpx;
+  margin: 0 auto;
+}

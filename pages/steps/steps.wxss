@@ -1,0 +1,8 @@
+/* pages/steps/steps.wxss */
+.stepCon{
+    width: 100%;
+}
+.stepCon image{
+width: 100%;
+height: 3300rpx;
+}

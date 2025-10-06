@@ -1,0 +1,51 @@
+<!--pages/index/index.wxml-->
+<view class="indexCon">
+<!-- 菜单栏 -->
+  <view class="custom-bar" style="height:{{navHeight}}px">
+  <view class="custom-bar__wrapper" style="margin-top:{{searchMarginTop}}px; height: {{searchHeight}}px;width: {{searchWidth}}px" >
+    <view class="search-group">
+    <image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/search.png?sign=23730416021883ee5e00da1b35cfb8c9&t=1685869269" mode="aspectFit" />
+      <input class="search-group__input" placeholder-style="color:#f8f8f8"  placeholder="搜索"/>
+    </view>
+  </view>
+</view>
+<!-- 弧形背景 -->
+<view class="pure_top">
+</view>
+<!-- 轮播图 -->
+<swiper class='bannerSwiper' indicator-color="#778899"indicator-dots="true"  indicator-active-color='#ff9900' interval='4000' duration='1000' bindchange='onChange' circular='true' snap-to-edge autoplay>
+      <block wx:for="{{banner}}">
+        <swiper-item>
+          <image class="{{index==xindex?'imageBanner':'imageBanner_small'}}" data-index="{{index}}" data-item="item" src="{{item}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+    <!-- 快讯 -->
+    <view class="firstMessage"> 
+    <image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/firstmessage.png?sign=fb17ea12b6c61a66473ad39158267e0a&t=1685869297"></image>
+    <text bindtap="toMessage" wx:for="{{textBanner}}" class="msgText">{{item}}</text>
+    </view>
+    <!-- 功能区 -->
+    <view class="appTop">
+    <button bindtap="torules">
+    <image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/top1.png?sign=7347260dda0351568edbc6b7250d87dd&t=1685869310"></image>  
+    <text>物流规则</text>
+    </button>
+    <button bindtap="tosteps">
+    <image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/top2.png?sign=e7af9babdff9122b180225c3b339b570&t=1685869321"></image>  
+    <text>下单流程</text>
+    </button>
+    </view>
+    <view class="appBottom">
+      <view class="appItem">
+    <image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/buttom1.png?sign=204891f9a730562a4122821f98e3e500&t=1685869332"></image>  
+    <text>一键购买</text>
+    <button bindtap="toadopt">立即下单</button>
+      </view>
+    <view class="appItem">
+    <image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/buttom2.png?sign=84ed46643b7f7f41f4a553063373c4f9&t=1685869342"></image>  
+    <text>荣誉认证</text>
+    <button bindtap="toauthentication">点击生成</button>
+    </view>
+    </view>
+</view>

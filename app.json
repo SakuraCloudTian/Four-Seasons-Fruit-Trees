@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/planA/planA",
+        "pages/planC/planC",
+        "pages/planB/planB",
+        "pages/adopt/adopt",
+        "pages/authentication/authentication",
+        "pages/shop/shop",
+        "pages/plan/plan",
+        "pages/steps/steps",
+        "pages/rules/rules",
+        "pages/personal/personal"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#b7bd54",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#A9A9A9",
+        "selectedColor": "#daa520",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "主页",
+                "iconPath": "/static/tubiao/home.png",
+                "selectedIconPath": "/static/tubiao/homeselect.png"
+            },
+            {
+                "pagePath": "pages/shop/shop",
+                "text": "商场",
+                "iconPath": "/static/tubiao/shop.png",
+                "selectedIconPath": "/static/tubiao/shopselect.png"
+            },
+
+
+            {
+                "pagePath": "pages/personal/personal",
+                "text": "个人中心",
+                "iconPath": "/static/tubiao/personal.png",
+                "selectedIconPath": "/static/tubiao/personalselect.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

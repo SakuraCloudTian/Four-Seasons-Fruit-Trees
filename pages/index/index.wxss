@@ -1,0 +1,205 @@
+/* pages/index/index.wxss */
+/* 菜单栏 */
+.indexTop{
+  background-color: #b7bd54;
+}
+view {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .custom-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color:#b7bd54;
+    z-index: 4;
+  }
+  .custom-bar__wrapper {
+    padding: 0 10rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-group {
+    width: 86%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #b7bd54;
+    border-radius: 30px;
+    padding: 0 5px;
+    background-color:#ced37a;
+  }
+  .search-group > input {
+    font-size: 25rpx;
+  }
+  .search-group > image {
+    height: 32rpx;
+    width: 32rpx;
+    margin-right: 20rpx;
+    color: #ffffff;
+  }
+  .indexCon{
+    width: 100%;
+    height: 1600rpx;
+    background-color: #f0efef;
+  }
+  /* 弧形背景色 */
+  .pure_top {
+    width: 100%;
+     height: 320rpx;
+     position: relative;
+     top: 120rpx;
+     z-index: 0;
+     overflow: hidden;
+   }
+   .pure_top::after {
+    content: '';
+    width: 120%;
+    height: 320rpx;
+    position: absolute;
+    left: -10%; 
+    top: 0;
+    border-radius: 0 0 60% 60%;  
+    background: #b7bd54;
+  }
+  /* 轮播表 */
+  
+.bannerSwiper {
+  position: absolute;
+  left: 0rpx;
+  top: 10rpx;
+  width: 100%;
+  height: 400rpx;
+  margin-top: 176rpx;
+}
+
+
+.imageBanner {
+  height: 100%;
+  position: relative;
+  padding: 0;
+  width: 88%;
+ border-radius: 20rpx;
+ z-index: 1;
+ margin-left: 50rpx;
+ /* box-shadow: 0 0 20rpx rgba(0, 0, 0,0.2); */
+}
+
+.imageBanner_small {
+  transform: scale(0.93);
+  transition: 0.2s, ease-in 0s;
+  border-radius: 10rpx;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -16rpx;
+  z-index: 100;
+  padding: 0;
+  line-height: 100%;
+  background: transparent;
+  text-align: left;
+}
+/* 快讯 */
+.firstMessage{
+  width: 100%;
+  height: 110rpx;
+  margin-top: 290rpx;
+  display: flex;
+}
+.firstMessage image{
+  height: 100rpx;
+  width: 100rpx;
+  margin-left: 40rpx;
+  margin-top: -20rpx;
+}
+.msgText{
+  width: 540rpx;
+  font-size: 25rpx;
+  line-height: 66rpx;
+ white-space: nowrap;
+ overflow: hidden;
+display: block; 
+text-overflow: ellipsis;
+text-decoration: underline;
+margin-left: 40rpx; 
+color: #808080;
+}
+/* 功能区 */
+.appTop{
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  margin-top: 20rpx;
+}
+.appTop button{
+  height: 160rpx;
+  width: 320rpx;
+  padding: 0;
+  margin-left: 38rpx;
+  margin-right: 0;
+  display: flex;
+  border-radius: 20rpx;
+  background-color: #fff;
+  box-shadow: 0 6rpx 10rpx #a1aa79;
+}
+.appTop button::after{
+  border:none;
+}
+.appTop image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+}
+.appTop text{
+  font-size: 34rpx;
+  text-align: center;
+  line-height: 150rpx;
+  margin-left: 20rpx;
+}
+.appBottom{
+  width: 100%;
+  height: 400rpx;
+  margin-top: 20rpx;
+}
+.appBottom .appItem{
+  height: 160rpx;
+  width: 680rpx;
+  padding: 0;
+  margin-left:40rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  border-radius: 20rpx;
+  background-color: #fff;
+  box-shadow: 0 6rpx 10rpx #a1aa79;
+}
+
+.appItem image{
+  width: 100rpx;
+  height: 100rpx;  
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+}
+.appItem text{
+  font-size: 34rpx;
+  text-align: center;
+  line-height: 150rpx;
+  margin-left: 20rpx;
+}
+.appItem button{
+font-size: 28rpx;
+width: 160rpx;
+height: 70rpx;
+padding: 0;
+border-radius: 40rpx;
+color: #c3d473;
+border:3rpx solid #c3d473;
+background-color: #fff;
+text-align: center;
+line-height: 70rpx;
+margin-top: 40rpx;
+margin-left: 200rpx;
+}

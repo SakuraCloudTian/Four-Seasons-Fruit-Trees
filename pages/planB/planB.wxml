@@ -1,0 +1,20 @@
+<!--pages/planA/planA.wxml-->
+<view class="planAcon">
+<view class="con">
+<view class="title"><view class="bgc"><text>云台寺</text></view></view>
+<view class="pic"><image src="http://121.41.24.59/country/yuntaisi.jpg"></image></view>
+<view class="plantext"><text>云台寺：距离51公里，乘车1小时27分钟 </text></view><view class="plantext"><text> 云台寺，位于重庆市巫溪县通城镇云台村，海拔1200余米，云台寺前身为道佛杂糅的云台观，最早修建于隋炀帝时期（即公元608年），云台以其天然形成之高、险、奇特著称于世，与奉节县白帝城、忠县石宝寨齐名。云台寺，历代皆誉为“川东古刹之冠”。文革期间被毁，于2004年开始恢复重建为佛教寺庙，礼请中国佛教协会理事、湖北省佛教协会副会长、荆州市佛教协会会长、章华寺方丈心继大和尚驻锡该寺，是为开山住持。云台寺，现正在逐渐完善中，古刹由此焕发异彩，更有佛光奇观显现。</text></view></view>
+<view class="con">
+<view class="title"><view class="bgc"><text>兰英大峡谷</text></view></view>
+<view class="pic"><image src="http://121.41.24.59/country/daxiagu.jpg"></image></view>
+<view class="plantext"><text>兰英大峡谷--下，距离59公里，乘车1小时54分钟兰英大峡谷位于国家级自然保护区——阴条岭，东临巫山、北临神龙架，全景于重庆市巫溪县通城镇、兰英乡、双阳乡境内，距离巫溪县城20公里。峡谷上至阴条岭（兰英寨）、下至洋溪河（大昌镇），全长48公里，座落在巴岩河的大峡谷之中。峡谷地貌奇特，以瀑高、峰险、山奇、石怪、水清、洞幽、禽珍、兽异构成一条世界上罕见的山水画廊。峡谷全长100余公里，谷底最窄处仅有13余米，平均深度1500余米，最深处达2400余米。谷内嶂谷、隘谷呈串珠状分布，因崩塌作用所形成的山崩地裂奇观国内外罕见</text></view></view>
+<view class="con">
+<view class="title"><view class="bgc"><text>巫溪灵巫洞</text></view></view>
+<view class="pic"><image src="http://121.41.24.59/country/linwudong.jpg"></image></view>
+<view class="plantext"><text>巫溪灵巫洞--下，距离20公里，乘车28分钟灵巫洞景区位于大宁河风景名胜区上段，距巫溪县城北12公里，这里了有由汽车、电梯、索道、滑车、橡皮艇五种交通工具并用形成的水陆空立体交叉游览体系。这里还有由著名版画家、雕塑家江碧波教授根据“十巫”传说设计创作的群雕和大型壁画，是首批国家AA级旅游区。 景点特色:灵巫洞景区最大的特色为风光奇特、创意独特、层次丰富、文化内涵深厚，可以在漂流探险中手触千年古栈道，感受神秘古朴的巫文化。</text></view></view>
+<view class="con">
+<view class="title"><view class="bgc"><text>大官山</text></view></view>
+<view class="pic"><image src="http://121.41.24.59/country/daguanshan.png"></image></view>
+<view class="plantext"><text>大官山：距离37公里，乘车1小时9分钟 </text></view>
+<view class="plantext"><text>大官山位于巫溪县东北部，东靠神农架原始森 林，属阴条岭自然保护区的实验区。大官山占地18万亩，其中原始次生林10万亩，天然草场万亩，林草覆盖率在90%以上，海拔高度在1600--2500m之间。大官山 景区处于中山亚高 山台原之上，区内浅丘错落有致，有“东方天山”之称。</text></view></view>
+</view>

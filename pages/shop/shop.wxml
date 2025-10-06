@@ -1,0 +1,77 @@
+<!--pages/index/index.wxml-->
+<view class="indexCon">
+<!-- 菜单栏 -->
+<!-- 弧形背景 -->
+<view class="pure_top">
+    <view class="rearchItem">
+<image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/search.png?sign=f29c8cdd9ed3e3db90b3156a2add9d0e&t=1685869382"></image>
+<input placeholder-style="color:#f8f8f8"  placeholder="搜索"/>
+</view>
+<view class="purePic">
+<image class="purePic" src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/shopcar.png?sign=df7875b9c0ad0873ebb40bee3f38147e&t=1685869391"></image></view>
+</view>
+
+<!-- 轮播图 -->
+<swiper class='bannerSwiper' indicator-color="#778899"indicator-dots="false"  indicator-active-color='#ff9900' interval='5000' duration='2000' bindchange='onChange' circular='true' snap-to-edge autoplay>
+      <block wx:for="{{banner}}">
+        <swiper-item>
+          <image class="{{index==xindex?'imageBanner':'imageBanner_small'}}" data-index="{{index}}" data-item="item" src="{{item}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+<!-- 商品类别 -->
+<scroll-view class="choose" scroll-x="true" enable-flex="true">
+<view wx:if="{{chosen1}}" class="scrollItem">
+<view class="scrText" bindtap="choose1">水果</view>
+<view class="line"></view>
+</view>
+<view wx:else class="scrollItem">
+<view class="scrTextSel">水果</view>
+<view class="lineSel"></view>
+</view>
+<view wx:if="{{chosen2}}" class="scrollItem">
+<view class="scrText" bindtap="choose2">干果</view>
+<view class="line"></view>
+</view>
+<view wx:else class="scrollItem">
+<view class="scrTextSel">干果</view>
+<view class="lineSel"></view>
+</view>
+<view wx:if="{{chosen3}}" class="scrollItem">
+<view class="scrText" bindtap="choose3">周边</view>
+<view class="line"></view>
+</view>
+<view wx:else class="scrollItem">
+<view class="scrTextSel">周边</view>
+<view class="lineSel"></view>
+</view>
+<view wx:if="{{chosen4}}" class="scrollItem">
+<view class="scrText" bindtap="choose4">其他</view>
+<view class="line"></view>
+</view>
+<view wx:else class="scrollItem">
+<view class="scrTextSel">其他</view>
+<view class="lineSel"></view>
+</view>
+</scroll-view>
+<!-- 商品展示 -->
+
+<scroll-view class="product" scroll-y="true">
+<view class="productItem">
+<view class="productPic"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/banmeigan.jpg?sign=5f9986438003f8db0886073d7d3e4d73&t=1685869683"></image></view>
+<view class="productName"><view class="productNa">半梅干</view>\n<view class="productInfo">源自重庆巫溪县,肥沃土壤出品优质李子,得天独厚的地理环境,只为一粒好半边梅</view></view>
+<view class="productPrice" style="width: 426rpx; height: 260rpx; display: block; box-sizing: border-box; left: 0rpx; top: -230rpx">
+<view class="proPri"><text> ¥ 10.6</text>\n<text class="proPri2" style="position: relative; left: 138rpx; top: 40rpx">113人已购</text></view>
+<button class="button1" bindtap="shopping" style="position: relative; left: -107rpx; top: 0rpx; z-index: 9">立刻购买</button><button class="button2"bindtap="shopcar" style="position: relative; left: 100rpx; top: -69rpx">加入购物车</button></view></view>
+<view class="productItem">
+<view class="productPic"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/lizigan.jpg?sign=dadac140d789cf5c9541e2df3a66f340&t=1685869694"></image></view>
+<view class="productName"><view class="productNa">李子干</view>\n<view class="productInfo">细选匀称的新鲜\n原果,粒粒圆润饱满,阳光果味</view></view>
+<view class="productPrice" style="width: 423rpx; height: 260rpx; display: block; box-sizing: border-box; left: 0rpx; top: -230rpx"><view class="proPri"><text> ¥ 17.9</text>\n<text class="proPri2" style="position: relative; left: 138rpx; top: 40rpx">210人已购</text></view>
+<button class="button1" bindtap="shopping" style="position: relative; left: -107rpx; top: 0rpx">立刻购买</button><button class="button2"bindtap="shopcar" style="position: relative; left: 100rpx; top: -69rpx">加入购物车</button></view></view>
+<view class="productItem">
+<view class="productPic"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/lizijiu.jpg?sign=0077d95aba8331277a537a2d34269ead&t=1685869717"></image></view>
+<view class="productName"><view class="productNa">李子酒</view>\n<view class="productInfo">采用当地传统匠技,浸提出汁,锁住清爽梅香</view></view>
+<view class="productPrice" style="width: 430rpx; height: 260rpx; display: block; box-sizing: border-box; left: 0rpx; top: -230rpx"><view class="proPri"><text style="position: relative; left: -5rpx; top: 0rpx"> ¥ 76</text>\n<text class="proPri2" style="position: relative; left: 106rpx; top: 40rpx">165人已购</text></view>
+<button class="button1" bindtap="shopping" style="position: relative; left: -107rpx; top: 0rpx">立刻购买</button><button class="button2"bindtap="shopcar" style="position: relative; left: 100rpx; top: -69rpx">加入购物车</button></view></view>
+</scroll-view>
+</view>

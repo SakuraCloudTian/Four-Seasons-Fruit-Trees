@@ -1,0 +1,78 @@
+<!--pages/personal/personal.wxml-->
+<view class="personalCon">
+<view class="smallItem" bindtap="ordering"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/tishi.png?sign=40b8f877c7213118a39b7bfc4a8c63da&t=1685869945"></image><image bindtap="ordering" src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/9.png?sign=8eed169df70359131457a0081b34eea6&t=1685869961"></image></view>
+
+<view wx:if="{{box}}" class="box" bindtap="getUserProfile">
+<view class="personalLogn">
+<image class="userImage" src='{{userInfo.avatarUrl?userInfo.avatarUrl:"https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/user.png?sign=26c612d139ab3ca66887bedadb7aaffb&t=1685869984"}}'>
+</image>
+<view class="userName">
+<text>{{userInfo.nickName?userInfo.nickName:"立即登录"}}</text>
+<image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/10.png?sign=c050373f36ccf2e7789c16e261b615d7&t=1685869995"></image>
+</view>
+</view>
+<view class="usermsg">
+    <view class="msg"> <view class="msg1">种草</view><view class="msg2">{{zhongcao}}</view></view>
+    <view class="msg"> <view class="msg1">收藏</view><view class="msg2">{{shoucang}}</view></view>
+    <view class="msg"> <view class="msg1">优惠券</view><view class="msg3">{{youhuiquan}}</view></view>
+</view>
+</view>
+
+<view wx:else class="box">
+<view class="personalLogn">
+<image class="userImage" src='{{userInfo.avatarUrl?userInfo.avatarUrl:"https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/user.png?sign=f8c6a50307c70717f7c57a1149fde2b1&t=1685870007"}}'>
+</image>
+<view class="userName">
+<text>{{userInfo.nickName?userInfo.nickName:"立即登录"}}</text>
+<image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/10.png?sign=350b6a43f4aaa427e3133256f94c48d0&t=1685870029"></image>
+</view>
+</view>
+<view class="usermsg">
+    <view class="msg"> <view class="msg1">种草</view><view class="msg2">{{zhongcao}}</view></view>
+    <view class="msg"> <view class="msg1">收藏</view><view class="msg2">{{shoucang}}</view></view>
+    <view class="msg"> <view class="msg1">优惠券</view><view class="msg3">{{youhuiquan}}</view></view>
+</view>
+</view>
+
+<view class="order">
+    <view class="orderTitle">
+        <view class="titleLeft">我的订单</view>
+        <view class="titleRight" bindtap="ordering">全部订单</view>
+    </view>
+    <view class="orderIcon">
+        <view class="orderImg" bindtap="ordering"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/1.png?sign=572e454bf92330a7be4ebfc71e72e4b6&t=1685870043"></image></view>
+        <view class="orderImg" bindtap="ordering"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/2.png?sign=bc3b0ede5fad920b9fa2936b28041d2d&t=1685870053"></image></view>
+        <view class="orderImg" bindtap="ordering"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/3.png?sign=66e98d502b9171edbcd23f893284600a&t=1685870063"></image></view>
+        <view class="orderImg" bindtap="ordering"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/4.png?sign=4ecf8256ed0ccb634593e252b9313db6&t=1685870070"></image></view>
+    </view>
+    <view class="orderName">
+        <view class="orderItem" bindtap="ordering">待付款</view>
+        <view class="orderItem" bindtap="ordering">待使用</view>
+        <view class="orderItem" bindtap="ordering">待评价</view>
+        <view class="orderItem" bindtap="ordering">退款售后</view>
+    </view>
+</view>
+
+<view class="bottom" bindtap="ordering">
+    <view class="buttomItem">
+        <view class="itemImg"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/5.png?sign=7d0f22d854ad090c7aab5a433fc1722d&t=1685870080"></image></view>
+        <view class="itemText">我的购物车</view>
+        <view class="itemIcon">></view>
+    </view>
+    <view class="buttomItem" bindtap="ordering">
+        <view class="itemImg"><image src="cloud://nongxianda-5g18j62m920c7008.6e6f-nongxianda-5g18j62m920c7008-1308332211/country/icon/6.png"></image></view>
+        <view class="itemText">我的会员</view>
+        <view class="itemIcon">></view>
+    </view>
+    <view class="buttomItem" bindtap="ordering">
+        <view class="itemImg"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/7.png?sign=56af08a9c62eb1ca24ca772449ca56d2&t=1685870097"></image></view>
+        <view class="itemText">浏览历史</view>
+        <view class="itemIcon">></view>
+    </view>
+    <view class="buttomItem" bindtap="ordering">
+        <view class="itemImg"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/icon/8.png?sign=3e37f8e2e310f1cb5bf6cc15868b4f72&t=1685870106"></image></view>
+        <view class="itemText">联系客服</view>
+        <view class="itemIcon">></view>
+    </view>
+</view>
+</view>

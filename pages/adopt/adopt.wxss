@@ -1,0 +1,337 @@
+/* pages/adopt/adopt.wxss */
+.adoptCon{
+    width: 100%;
+    height: 1400rpx;
+    background-color: #f1f0f0;
+}
+.top{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    top: 2.4%;
+}
+.typeperson{
+    width: 100%;
+    height: 25%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.typeperson .text1{
+    position: relative;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+.typeperson .text2{
+    position: relative;
+    top: 18%;
+    left: 30rpx;
+    height: 100%;
+    color: #c00303;
+    font-size: 58rpx;
+}
+.choosepersontype{
+    width: 75%;
+    height: 100%;
+}
+.choosepersontype text{
+    position: relative;
+    float: right;
+    right: 20rpx;
+    top: 28%;
+}
+.person{
+    width: 100%;
+    height: 25%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.person .text1{
+    position: relative;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+.person .text2{
+    position: relative;
+    top: 18%;
+    left: 30rpx;
+    height: 100%;
+    color: #c00303;
+    font-size: 58rpx;
+}
+.chooseperson{
+    width: 79%;
+    height: 100%;
+}
+.chooseperson text{
+    position: relative;
+    float: right;
+    right: 20rpx;
+    top: 28%;
+    color: #757575;
+}
+.personmoble{
+    width: 100%;
+    height: 25%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.personmoble .text1{
+    position: relative;
+    width: 20%;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+.personmoble .text2{
+    position: relative;
+    top: 18%;
+    left: 30rpx;
+    height: 100%;
+    color: #c00303;
+    font-size: 58rpx;
+}
+.choosepersonmoble{
+    width: 72%;
+    height: 100%;
+}
+.choosepersonmoble text{
+    position: relative;
+    float: right;
+    right: 20rpx;
+    top: 28%;
+    color: #757575;
+}
+
+
+.personmail{
+    width: 100%;
+    height: 25%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.personmail .text1{
+    position: relative;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+.choosepersonmail{
+    width: 75%;
+    height: 100%;
+}
+.choosepersonmail text{
+    position: relative;
+    float: right;
+    right: 20rpx;
+    top: 28%;
+    color: #757575;
+}
+
+
+.mid{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top: 90rpx;
+}
+/* .personschool{
+    width: 100%;
+    height: 20%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.personschool .text1{
+    position: relative;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+.personschool .text2{
+    position: relative;
+    top: 18%;
+    left: 30rpx;
+    height: 100%;
+    color: #c00303;
+    font-size: 58rpx;
+}
+.choosepersonschool{
+    width: 75%;
+    height: 100%;
+}
+.choosepersonschool text{
+    position: relative;
+    float: right;
+    right: 60rpx;
+    top: 28%;
+}
+.personyear{
+    width: 100%;
+    height: 20%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.personyear .text1{
+    position: relative;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+.choosepersonyear{
+    width: 78%;
+    height: 100%;
+}
+.choosepersonyear text{
+    position: relative;
+    float: right;
+    right: 20rpx;
+    top: 28%;
+    color: #757575;
+}
+.shcooltype{
+    width: 100%;
+    height: 20%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.shcooltype .text1{
+    position: relative;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+.chooseshcooltype{
+    width: 86%;
+    height: 100%;
+}
+.chooseshcooltype text{
+    position: relative;
+    float: right;
+    right: 20rpx;
+    top: 28%;
+    color: #757575;
+} */
+.treenumber{
+    width: 100%;
+    height: 50%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.treenumber .text1{
+    position: relative;
+    width: 140rpx;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+.treenumber .text2{
+    position: relative;
+    top: 18%;
+    left: 30rpx;
+    height: 100%;
+    color: #c00303;
+    font-size: 58rpx;
+}
+.choosetreenumber{
+    width: 86%;
+    height: 100%;
+}
+.choosetreenumber text{
+    position: relative;
+    left: 80%;
+    top: 28%;
+}
+.tree{
+    width: 100%;
+    height: 50%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.tree .text1{
+    position: relative;
+    width: 140rpx;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+
+.choosetree{
+    width: 76%;
+    height: 100%;
+}
+.choosetree text{
+    position: relative;
+    float: right;
+    top: 28%;
+    right: 20rpx;
+    color: #757575;
+}
+.tomessage{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top: 130rpx;
+}
+.jiyu{
+    width: 100%;
+    height: 50%;
+    margin: 4rpx auto;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10rpx;
+}
+.jiyu .text1{
+    position: relative;
+    width: 140rpx;
+    left: 16rpx;
+    top: 28%;
+    height: 100%;
+}
+.choosejiyu{
+    width: 76%;
+    height: 100%;
+}
+.choosejiyu text{
+    position: relative;
+    left: 66%;
+    top: 28%;
+    color: #757575;
+}
+.makesure{
+    width: 100%;
+    height:40%;
+    display: block;
+    position: relative;
+    top: 60%;
+}
+.makesure button{
+    width: 42%;
+    height: 80%;
+    position: relative;
+    top: 30%;
+    background-color: #c04d30;
+    color: #fff;
+    line-height: 220%;
+    border-radius: 20rpx;
+}

@@ -1,0 +1,16 @@
+<!--pages/planA/planA.wxml-->
+<view class="planAcon">
+<view class="con">
+<view class="title"><view class="bgc"><text>川东纪念馆</text></view></view>
+<view class="pic"><image src="http://121.41.24.59/country/jinianguan.jpg"></image></view>
+<view class="plantext"><text>川东纪念馆：距离2公里，乘车15分钟 川东游击队起义纪念园为红色旅游经典景区。 </text></view><view class="plantext"><text> 川东游击队起义纪念园，又称奉大巫起义纪念园，位于巫溪县下堡镇宁桥村，距巫溪县城25公里，占地0.5亩，保护范围2.5平方公里。纪念园被三面纪念墙环抱，正中为黑色大理石纪念碑，碑上刻有红五星和“奉大巫起义纪念碑”镀金大字，纪念墙上分别是“奉大巫起义简介”和“奉大巫起义英名录”。</text></view></view>
+<view class="con">
+<view class="title"><view class="bgc"><text>汉风神谷</text></view></view>
+<view class="pic"><image src="http://121.41.24.59/country/hanfengshengu.jpg"></image></view>
+<view class="plantext"><text>汉风神谷：距离17公里，乘车24分钟</text></view><view class="plantext"><text>荆竹峡——汉风神谷景区，位于大宁河上游荆竹峡内，全长7km，距巫溪县城21km。景区“苍苍两崖间，阔窄容一苇”，两岸悬岩对峙，峭壁如削；岩上羊肠古道，盘折崎岖；四周高山荆竹满山，满目苍翠，宛如画屏。荆竹坝宽阔地带的“汉风神谷”中，建有荆竹坝先秦濮族岩棺群，现存岩棺24具。占地28亩，环境清奇素雅，文化古朴，曲水流淌。建于荆竹坝宽阔地带的“汉风神谷”，占地28亩，古朴宁静，曲水流殇，环境清奇素雅。园区利用壁画、雕塑、脸谱、声像展播等多种手段着力彰显远古巫文化形态和内涵，并再现蔡伦式造纸术。</text></view></view>
+<view class="con">
+<view class="title"><view class="bgc"><text>宁厂古镇</text></view></view>
+<view class="pic"><image src="http://121.41.24.59/country/guzhen.jpg"></image></view>
+<view class="plantext"><text>宁厂古镇--下堡镇，距离24公里，乘车34分钟宁厂古镇位于重庆巫溪县附近，是中国早期制盐地之一。《华阳国志校补图注》:"当虞夏之际，巫国以盐业兴"，距今约5000年之久。天然盐卤泉自镇北宝源山洞流出，从先秦盐业兴盛以来，宁厂古镇因盐设立监、州、县，明清时成为中国十大盐都之一。</text></view><view class="plantext"><text>宁厂古镇有4000多年的制盐史，远古时期是"不绩不经，服也;不稼不樯，食也"的乐土，在唐尧时期就是极盛一时的巫咸国的本土和首会所在地。并因盐而兴，历史上曾设立郡、监、州、县，有过"一泉流白玉，万里走黄金"、"吴蜀之货，咸荟于此"、"利分秦楚域，泽沛汉唐年"的辉煌。</text></view><view class="plantext"><text>宁厂古镇是三峡地区古人类文明的发祥地和摇篮，堪称世界的"上古盐都"和世界手工作坊的"鼻祖"。在古镇历史上，曾多次爆发灶夫的起义。而正德三年(1508)爆发在这里的盐场灶夫鄢本恕、廖慧起义，历时5年，义军达10万，席卷西南地区六省市，比欧洲最早的工人起义早100多年，更应是世界工人运动之源流。</text></view><view class="plantext"><text>2010年，获住房和城乡建设部、国家文物局授予第五批"中国历史文化名镇"荣誉称号。</text></view></view>
+
+</view>

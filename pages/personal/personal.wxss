@@ -1,0 +1,212 @@
+/* pages/personal/personal.wxss */
+.personalCon{
+    width: 100%;
+    height: 1300rpx;
+    margin: 0 auto;
+    background-color: #eef3fc;
+}
+.smallItem{
+    width: 92%;
+    height: 80rpx;
+    margin: 0 auto;
+
+}
+.smallItem image{
+margin: 10rpx;
+width: 44rpx;
+height: 44rpx;
+float: right;
+}
+.box{
+    width: 92%;
+    height: 320rpx;
+    margin: 0 auto;
+    border-radius: 20rpx;
+    background-color: #b7bd54;
+    box-shadow: 0 0 20rpx #909091;
+}
+.personalLogn{
+    width: 100%;
+    display: flex;
+    height: 200rpx;
+    margin: 0 auto;
+}
+.usermsg{
+    width: 90%;
+    display: flex;
+    height: 100rpx;
+    margin: 0 auto;
+}
+.msg{
+    width: 33%;
+    height: 100rpx;
+    display: flex;
+}
+.msg1{
+  font-size: 28rpx;
+  width: 50%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 120rpx;
+  color: #fff;
+  margin-left: 40rpx;
+}
+
+.msg2{
+    width: 50%;
+    height: 100rpx;
+    font-size: 40rpx;
+    line-height: 120rpx;
+    color: #fff;
+}
+.msg3{
+    width: 20%;
+    height: 100rpx;
+    font-size: 40rpx;
+    line-height: 120rpx;
+    color: #fff; 
+    margin-left: 10rpx;
+}
+.userImage{
+    width: 120rpx;
+    height: 120rpx;
+    /* background-color: #e4e1e1; */
+    border-radius: 50%;
+    margin-top:30rpx;
+    margin-left: 30rpx;
+}
+.uesrLogn{
+    background-color: #ccffff;
+    border: #ccffff;
+    font-size: 28rpx;
+    color: #5a5a5a;
+    height: 160rpx;
+    width: 200rpx;
+    padding: 0rpx;
+    margin: 0;
+}
+.uesrLogn::after{
+        border:none
+}
+
+.uesrLogn .userbutton{
+    text-align: right;
+    line-height: 150rpx;
+    /* margin-left: 100rpx; */
+}
+.userName{
+    width: 520rpx;
+    font-size: 40rpx;
+    text-align: left;
+    line-height: 180rpx;
+    margin-left: 24rpx;
+    color: #fff;
+    display: flex;
+}
+.userName text{
+    width:300rpx;
+}
+.userName image{
+   width: 200rpx;
+   height:200rpx; 
+}
+/* 订单 */
+.order{
+    width: 92%;
+    height: 240rpx;
+    margin: 0 auto;
+    margin-top: 40rpx;
+    border-radius: 20rpx;
+    background-color: #ffffff;
+}
+.orderTitle{
+    width: 92%;
+    height: 60rpx;
+    margin: 0 auto;
+}
+.titleLeft{
+    width:200rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #43661b;
+    font-size: 32rpx;
+    float: left;
+}
+.titleRight{
+    width:120rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #a7a7a7;
+    font-size: 28rpx;
+    float: right;
+}
+.orderIcon{
+    width: 100%;
+    height: 120rpx;
+    margin: 0 auto;
+    display:flex;
+}
+.orderImg{
+    width: 25%;
+    height: 120rpx;
+    display: flex;
+}
+.orderImg image{
+    width: 76rpx;
+    height: 76rpx;
+    margin: 0 auto;
+    margin-top: 16rpx;
+}
+.orderName{
+    width: 100%;
+    height: 60rpx;
+    margin: 0 auto;
+    display: flex;
+}
+.orderItem{
+    width: 25%;
+    font-size: 30rpx;
+    height: 60rpx;
+    text-align: center;
+    color:#344b1b;
+}
+/* 底部 */
+.bottom{
+    width: 92%;
+    height: 520rpx;
+    border-radius: 20rpx;
+    margin: 0 auto;
+    margin-top: 40rpx;
+    background-color: #fff;
+}
+.buttomItem{
+    width: 92%;
+    height: 130rpx;
+    margin: 0 auto;
+    display: flex;
+}
+.itemImg{
+    width: 44rpx;
+    height: 44rpx;
+    margin: auto 0;
+    margin-left: 24rpx;
+    background-color: #fff;
+}
+.itemImg image{
+    width: 44rpx;
+    height: 44rpx;
+}
+.itemText{
+    width: 400rpx;
+    height:130rpx;
+    line-height: 130rpx;
+    margin-left: 20rpx;
+}
+.itemIcon{
+    width: 60rpx;
+    height: 130rpx;
+    text-align: center;
+    line-height: 130rpx;
+    margin-left: 100rpx;
+    font-weight: 800;
+}

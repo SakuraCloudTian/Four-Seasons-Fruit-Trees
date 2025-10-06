@@ -1,0 +1,10 @@
+/* pages/authentication/authentication.wxss */
+.authenticationCon{
+    width: 100%;
+}
+.authenticationCon image{
+    position: relative;
+    top: 60rpx;
+    width: 100%;
+    height: 1100rpx;
+}

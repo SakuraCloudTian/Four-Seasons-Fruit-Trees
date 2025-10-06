@@ -1,0 +1,5 @@
+<!--pages/authentication/authentication.wxml-->
+<view class="authenticationCon">
+<image src="http://121.41.24.59/country/authentication.jpg"></image>
+</view>
+

@@ -1,0 +1,52 @@
+<!--pages/plan/plan.wxml-->
+<view class="indexCon">
+<!-- 菜单栏 -->
+  <view class="custom-bar" style="height:{{navHeight}}px">
+  <view class="custom-bar__wrapper" style="margin-top:{{searchMarginTop}}px; height: {{searchHeight}}px;width: {{searchWidth}}px" >
+    <view class="search-group">
+    <image src="/static/tubiao/research.png" mode="aspectFit" />
+      <input class="search-group__input" placeholder-style="color:#f8f8f8"  placeholder="搜索"/>
+    </view>
+  </view>
+</view>
+<!-- 弧形背景 -->
+<view class="pure_top">
+</view>
+<!-- 轮播图 -->
+<swiper class='bannerSwiper' indicator-color="#778899"indicator-dots="true"  indicator-active-color='#ff9900' interval='4000' duration='1000' bindchange='onChange' circular='true' snap-to-edge autoplay>
+      <block wx:for="{{banner}}">
+        <swiper-item>
+          <image class="{{index==xindex?'imageBanner':'imageBanner_small'}}" data-index="{{index}}" data-item="item" src="{{item}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+    <!-- 旅游路线 -->
+    <view class="planTitle">
+    <view class="colorItem"></view>
+    <view class="planLeft">景点推荐</view>
+    <view class="planPoint"></view>
+    <view class="planPoint"></view>
+    <view class="planPoint"></view>
+    <view class="planRight">精品推荐</view>
+    </view>
+<scroll-view class="product" scroll-y="true">
+
+<view class="productItem">
+<view class="productPic" bindtap="toplanA"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/address/daxiagu.jpg?sign=a3bb8fdebd176029c45f117313ead1d3&t=1685872639"></image></view>
+<view class="productName" bindtap="toplanA"><view class="productNa">下堡镇红色科普旅游路线</view>\n<view class="productInfo">兰英大峡谷--下，距离59公里，乘车1小时54分钟,兰英大峡谷位于国家级自然保护区——阴条岭，东临巫山、北临神龙架，全景于重庆市巫溪县通城镇、兰英乡、双阳乡境内，距离巫溪县城20公里。峡谷上至阴条岭（兰英寨）、下至洋溪河（大昌镇），全长48公里，座落在巴岩河的大峡谷之中。峡谷地貌奇特，以瀑高、峰险、山奇、石怪、水清、洞幽、禽珍、兽异构成一条世界上罕见的山水画廊。峡谷全长100余公里，谷底最窄处仅有13余米，平均深度1500余米，最深处达2400余米。谷内嶂谷、隘谷呈串珠状分布，因崩塌作用所形成的山崩地裂奇观国内外罕见</view></view>
+<view class="productPrice">
+<view class="productButton"><button class="button2" bindtap="shopcar">分享内容</button></view></view></view>
+<view class="productItem">
+<view class="productPic" bindtap="toplanB"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/address/jixinlin.png?sign=2f6121544202be72c0f26f43c7afba85&t=1685872658"></image></view>
+<view class="productName" bindtap="toplanB"><view class="productNa">下堡镇亲近自然旅游路线</view>\n<view class="productInfo">鸡心岭--下，距离57公里，乘车1小时32分钟
+金鸡岭又称鸡心岭，位于位于重庆市巫溪县、湖北省竹溪县、陕西省镇坪县三省（市）交汇处。“走上鸡心岭，一脚踏三省”指的就是此岭，上竖国务院1996年竖立的界牌标桩，为陕、渝、鄂分界线，也是西南、西北、华中三大区的交汇点，是一中国地理位置特殊的地方。处在北纬31度，东经109度上，恰好位于雄鸡版图的心脏位置，所以有“自然国心”之称。
+</view></view>
+<view class="productPrice">
+<view class="productButton"><button class="button2" bindtap="shopcar">分享内容</button></view></view></view>
+<view class="productItem">
+<view class="productPic" bindtap="toplanC"><image src="https://6e6f-nongxianda-5g18j62m920c7008-1308332211.tcb.qcloud.la/country/address/hanfengshengu.jpg?sign=b6ef153329ef6a23015485b5b3becede&t=1685872670"></image></view>
+<view class="productName" bindtap="toplanC"><view class="productNa">巫溪县下堡镇周边景点</view>\n<view class="productInfo">荆竹峡——汉风神谷景区，位于大宁河上游荆竹峡内，全长7km，距巫溪县城21km。景区“苍苍两崖间，阔窄容一苇”，两岸悬岩对峙，峭壁如削；岩上羊肠古道，盘折崎岖；四周高山荆竹满山，满目苍翠，宛如画屏。荆竹坝宽阔地带的“汉风神谷”中，建有荆竹坝先秦濮族岩棺群，现存岩棺24具。占地28亩，环境清奇素雅，文化古朴，曲水流淌。建于荆竹坝宽阔地带的“汉风神谷”，占地28亩，古朴宁静，曲水流殇，环境清奇素雅。园区利用壁画、雕塑、脸谱、声像展播等多种手段着力彰显远古巫文化形态和内涵，并再现蔡伦式造纸术。</view></view>
+<view class="productPrice">
+<view class="productButton"><button class="button2" bindtap="shopcar">分享内容</button></view></view></view>
+</scroll-view>
+</view>

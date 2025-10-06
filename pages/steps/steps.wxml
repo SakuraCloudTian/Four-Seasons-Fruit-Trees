@@ -1,0 +1,4 @@
+<!--pages/steps/steps.wxml-->
+<view class="stepCon">
+<image src="http://121.41.24.59/country/steps.jpg"></image>
+</view>
